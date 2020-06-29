@@ -29,6 +29,7 @@
             var user=getCookie("username");
             if (user != "") {
                 alert("Cookie value: " + user);
+                document.write('The cookie you entered has a value of: ' + user);
             } else {
                 user = prompt("Enter a cookie value:","");
                 if (user != "" && user != null) {
@@ -42,5 +43,7 @@
 <body onload="checkCookie()">
     <h2> Refresh page to see cookie value.</h2>
 </body>
-
+<footer>
+    <p>&copy; Louis Delarmente, 29 June 2020</p>
+</footer>
 </html>
