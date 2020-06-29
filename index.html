@@ -30,7 +30,6 @@
             if (user != "") {
                 alert("Cookie value: " + user);
                 document.write('The cookie you entered has a value of: ' + user);
-                document.write('&copy; Louis Delarmente, 29 June 2020');
             } else {
                 user = prompt("Enter a cookie value:","");
                 if (user != "" && user != null) {
@@ -42,6 +41,9 @@
 </head>
 
 <body onload="checkCookie()">
+<p>
+    Refresh to display cookie <br>
+</p>
 </body>
 <footer>
     <p>&copy; Louis Delarmente, 29 June 2020</p>
